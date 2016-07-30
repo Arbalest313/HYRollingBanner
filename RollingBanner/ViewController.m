@@ -19,9 +19,13 @@
     NSArray * picts = @[@"0",@"1",@"2",@"3"];
     NSMutableArray * image = [NSMutableArray new];
     for (NSString * name in picts) {
-        [image addObject:[UIImage imageNamed:name]];
+//        if([UIImage imageNamed:@"0"])
     }
-    RollingBanner * banner = [[RollingBanner alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 200) pictures:image atIndex:1];
+    [image addObject:[UIImage imageNamed:@"1.jpg"]];
+    [image addObject:[UIImage imageNamed:@"0.jpg"]];
+    [image addObject:[UIImage imageNamed:@"2.jpg"]];
+
+    RollingBanner * banner = [[RollingBanner alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 300) pictures:image atIndex:1];
     [self.view addSubview:banner];
     // Do any additional setup after loading the view, typically from a nib.
 }
