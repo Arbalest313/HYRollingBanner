@@ -10,4 +10,4 @@ Parallax Rolling Banner
 
 
 # 如果你在天朝
-![戳这里](http://hyyy.me/2016/08/15/RollingBanner/)
+[戳这里](http://hyyy.me/2016/08/15/RollingBanner/)
