@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "47E0EF117E769046133D562A4161FB7C7E0CA883",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "47E0EF117E769046133D562A4161FB7C7E0CA883" : 0,
+    "BBA9A2B8C7846AB89ACEEAB4232664803A1EE277" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C9791AAD-729D-481E-9C99-4B65E9D8181C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "47E0EF117E769046133D562A4161FB7C7E0CA883" : "RollingBanner\/",
+    "BBA9A2B8C7846AB89ACEEAB4232664803A1EE277" : "RollingBanner\/RollingBanner\/RollingBanner\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RollingBanner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RollingBanner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Arbalest313\/HYRollingBanner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47E0EF117E769046133D562A4161FB7C7E0CA883"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Arbalest313\/HYRollingBanner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBA9A2B8C7846AB89ACEEAB4232664803A1EE277"
+    }
+  ]
+}

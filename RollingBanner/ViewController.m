@@ -33,10 +33,12 @@
 //    banner.autoRolling = YES;
 
     
-    UIButton *toDVCButton = [[UIButton alloc] init];
+    UIButton *toDVCButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [toDVCButton setTitle:@"优化" forState:UIControlStateNormal];
     [toDVCButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    toDVCButton.frame = CGRectMake(100, kFitH(300)+100, 100, 30);
+    toDVCButton.frame = CGRectMake((kSCREEN_WIDTH - kFitW(100))/2, kFitH(300)+100, kFitW(100), 30);
+    toDVCButton.layer.borderWidth = .5f;
+    toDVCButton.layer.cornerRadius = 3;
     [self.view addSubview:toDVCButton];
     
     [toDVCButton addTarget:self action:@selector(jumpToNext) forControlEvents:UIControlEventTouchUpInside];
