@@ -19,7 +19,6 @@ Parallax Rolling Banner
 
 
 # Target Postion
-# Paging
 ```objc
     // -- Custom Paing, which is more soomth and flexible
 ````
