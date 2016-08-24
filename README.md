@@ -6,7 +6,7 @@ Parallax Rolling Banner
     [image addObject:[UIImage imageNamed:@"0.jpg"]];
     [image addObject:[UIImage imageNamed:@"2.jpg"]];
 
-    RollingBanner * banner = [[RollingBanner alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, kFitH(300)) pictures:image atIndex:1];
+    RollingBanner * banner = [[RollingBanner alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 300) pictures:image atIndex:1];
     [self.view addSubview:banner];
 ```
 
