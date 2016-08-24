@@ -18,7 +18,11 @@ Parallax Rolling Banner
 ![](https://github.com/Arbalest313/gitRecord/blob/master/RollingBanner/RBPagingC.gif?raw=true)
 
 
-# Target Postion -- Custom Paing
+# Target Postion
+# Paging
+```objc
+    // -- Custom Paing, which is more soomth and flexible
+````
 ![](https://github.com/Arbalest313/gitRecord/blob/master/RollingBanner/RBTargetX-C.gif?raw=true)
 
 
