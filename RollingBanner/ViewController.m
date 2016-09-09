@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SecondController.h"
 
-#import "RollingBanner/RollingBanner.h"
+#import "RollingBanner.h"
 
 @interface ViewController ()
 @end

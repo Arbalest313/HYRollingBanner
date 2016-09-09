@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C534DF21D8283C9003F4952 /* RollingBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C534DF11D8283C9003F4952 /* RollingBanner.m */; };
 		1C8E15511D3931C000403B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E15501D3931C000403B39 /* main.m */; };
 		1C8E15541D3931C000403B39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E15531D3931C000403B39 /* AppDelegate.m */; };
 		1C8E15571D3931C000403B39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E15561D3931C000403B39 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		1C8E155F1D3931C000403B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C8E155D1D3931C000403B39 /* LaunchScreen.storyboard */; };
 		1C8E156A1D3931C100403B39 /* RollingBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E15691D3931C100403B39 /* RollingBannerTests.m */; };
 		1CAFB3641D4FAB0600EAB39E /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFB3631D4FAB0600EAB39E /* SecondController.m */; };
-		1CDC166B1D464116004F6535 /* RollingBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC166A1D464116004F6535 /* RollingBanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C534DF01D8283C9003F4952 /* RollingBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBanner.h; sourceTree = "<group>"; };
+		1C534DF11D8283C9003F4952 /* RollingBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBanner.m; sourceTree = "<group>"; };
 		1C8E154C1D3931C000403B39 /* RollingBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8E15501D3931C000403B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C8E15521D3931C000403B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		1C8E156B1D3931C100403B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAFB3621D4FAB0600EAB39E /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
 		1CAFB3631D4FAB0600EAB39E /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
-		1CDC16691D464116004F6535 /* RollingBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBanner.h; sourceTree = "<group>"; };
-		1CDC166A1D464116004F6535 /* RollingBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C534DEF1D8283C9003F4952 /* RollingBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				1C534DF01D8283C9003F4952 /* RollingBanner.h */,
+				1C534DF11D8283C9003F4952 /* RollingBanner.m */,
+			);
+			path = RollingBannerView;
+			sourceTree = "<group>";
+		};
 		1C8E15431D3931C000403B39 = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +96,7 @@
 		1C8E154E1D3931C000403B39 /* RollingBanner */ = {
 			isa = PBXGroup;
 			children = (
-				1CDC16681D464116004F6535 /* RollingBanner */,
+				1C534DEF1D8283C9003F4952 /* RollingBannerView */,
 				1C8E15521D3931C000403B39 /* AppDelegate.h */,
 				1C8E15531D3931C000403B39 /* AppDelegate.m */,
 				1C8E15551D3931C000403B39 /* ViewController.h */,
@@ -118,15 +127,6 @@
 				1C8E156B1D3931C100403B39 /* Info.plist */,
 			);
 			path = RollingBannerTests;
-			sourceTree = "<group>";
-		};
-		1CDC16681D464116004F6535 /* RollingBanner */ = {
-			isa = PBXGroup;
-			children = (
-				1CDC16691D464116004F6535 /* RollingBanner.h */,
-				1CDC166A1D464116004F6535 /* RollingBanner.m */,
-			);
-			path = RollingBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +234,7 @@
 				1C8E15541D3931C000403B39 /* AppDelegate.m in Sources */,
 				1CAFB3641D4FAB0600EAB39E /* SecondController.m in Sources */,
 				1C8E15511D3931C000403B39 /* main.m in Sources */,
-				1CDC166B1D464116004F6535 /* RollingBanner.m in Sources */,
+				1C534DF21D8283C9003F4952 /* RollingBanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
